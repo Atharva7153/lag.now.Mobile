@@ -1,0 +1,68 @@
+*{
+    color: white;
+    margin: 0;
+}
+body {
+    background-image: url(Bg_1.png);
+    background-size: 300vh; 
+}
+.header {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 8vh;
+}
+h1 {
+    font-size: 20px;
+}
+h3 {
+    font-size: 9px;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    border: 1px solid white;
+}
+#logo {
+    height: 15vh;  
+}
+.sky_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    height: 30vh;
+}
+.skyforce{
+    background-image: url(skyforce.png);
+    background-size: cover;
+    background-position-y: -20px;
+    height: 20vh;
+    width: 20vh;
+}
+#watch {
+    height: 3vh;
+}
+.chaava_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    height: 30vh;
+}
+.chaava {
+    background-image: url(chaava.png);
+    background-size: cover;
+    background-position-y: -20px;
+    height: 20vh;
+    width: 20vh;
+}
+.more {
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
